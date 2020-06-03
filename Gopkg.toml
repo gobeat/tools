@@ -1,0 +1,9 @@
+ignored = ["github.com/onsi/ginkgo", "github.com/onsi/gomega"]
+
+[[constraint]]
+  name = "github.com/gobeat/interfaces"
+  version = "~1.0.x"
+
+[prune]
+  go-tests = true
+  unused-packages = true
